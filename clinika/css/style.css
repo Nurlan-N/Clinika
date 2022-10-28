@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    padding: 0 25rem;
+}
+a{
+    text-decoration: none;
+}
+#nav_bar{
+    width: 100%;
+    position: fixed;
+    padding: 1rem 0;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo{
+    width: 13%;
+}
+.nav .logo img{
+    width: 100%;
+}
+.nav .menu a{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 30px 10px;
+}
+.nav .btn a{
+    color: #252525;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #ffff;
+    border-radius: 30px;
+}
+.all_page_1{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_slide1.jpg?id=22308);
+    
+}
+.page_1{
+    display: flex;
+    justify-content: left;
+    padding-top: 8rem;
+    align-items: center;
+}
+.page_1 .left{
+    color: #ffff;
+    width: 50%;
+}
+.page_1 .left h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.page_1 .left p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 3rem;
+}
+.page_1 .left a{
+    color: #ffff;
+    background-color: #006ba6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-top: 5rem;
+}
+.page_1 .right{
+    width: 50%;
+}
+.page_1 .right img{
+    width: 100%;
+}
+.page_2{
+    text-align: center;
+    width: 100%;
+    margin-top: 7rem;
+}
+.page_2 h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #252525;
+    margin-bottom: 30px;
+}
+.page_2 .gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.page_2 .gallery .box{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+.page_2 .gallery .box img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    vertical-align: bottom;
+}
+.page_2 .bottom{
+    background-color: #f2f2f2;
+    border-radius: 0 0 10px 10px;
+    text-align: left;
+}
+.page_2 .bottom a{
+    margin-left: 20px;
+    color: #111111;
+    font-size: 18px;
+}
+.page_2 .bottom .b_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px 0;
+    padding-bottom: 1rem;
+}
+.p2_btn{
+    font-size: 18px;
+    color: #ffff;
+    background-color: #006ba6;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#all_page_3{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Thermo_banner.jpg?id=22303);
+    margin-top: 5rem;
+}
+.page_3{
+    text-align: center;
+    color: #ffff;
+    padding: 10rem 0;
+}
+.page_3,.page_4 h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.page_3 p{
+    font-size: 16px;
+    margin-bottom: 4rem;
+}
+.page_3 a{
+    color: #006ba6;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
